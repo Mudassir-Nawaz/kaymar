@@ -67,4 +67,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           artifact_name: jekyll-site
-          preview: false  # Assuming you don't want to preview the changes
+          preview: false  # Assuming you don't want to preview the changess
