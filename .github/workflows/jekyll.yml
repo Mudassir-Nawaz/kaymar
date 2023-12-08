@@ -59,7 +59,10 @@ jobs:
           name: jekyll-site
           path: _site
       - name: List symlinks in _site
-        run: find _site -type l -exec ls -l {} \; > symlinks.log
+        run: |
+          echo "Current directory: $(pwd)"
+          find _site -type l -exec ls -l {} \; > symlinks.log 2>&1
+          cat symlinks.log
       - name: Display symlinks.log
         run: cat symlinks.log
       - name: Deploy to GitHub Pages
