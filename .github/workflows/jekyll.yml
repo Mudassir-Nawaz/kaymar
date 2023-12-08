@@ -58,6 +58,11 @@ jobs:
         with:
           name: jekyll-site
           path: _site
+      - name: List files in _site (including inode numbers)
+        run: |
+          find _site -type f -exec stat -c "%i %n" {} \; > hard_links.log
+      - name: Display hard_links.log
+        run: cat hard_links.log
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v3
         with:
