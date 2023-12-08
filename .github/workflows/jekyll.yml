@@ -59,7 +59,8 @@ jobs:
           name: jekyll-site
           path: _site
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v3
         with:
-          artifact: _site  # Assuming _site is the root of your Jekyll site
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifact_name: jekyll-site
+          preview: false  # Assuming you don't want to preview the changes
