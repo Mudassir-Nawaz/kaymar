@@ -1,0 +1,31 @@
+
+[
+  
+    {
+      "title"    : "Welcome to Jekyll!",
+      "content"  : "p you ll find this post in your code class language plaintext highlighter rouge posts directory go ahead and edit it re build the site to see changes can rebuild many different ways but most common way is run jekyll serve which launches a web server auto regenerates when file updated requires blog files be named according following format year month day title markup where four digit number are both two numbers extension representing used after that include necessary front matter take look at source for get an idea about how works also offers powerful support snippets figure highlight pre ruby data lang span k def nf print hi nb name puts s2 si end n s1 tom c1 gt prints stdout check out href https jekyllrb com docs home more info on of all bugs feature requests github s repo if have questions ask them talk",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/jekyll/update/2023/12/06/welcome-to-jekyll.html",
+      "date"     : "Dec 6, 2023"
+    } ,
+  
+    {
+      "title"    : "lesson",
+      "content"  : "div class language python highlighter rouge highlight pre code p lesson",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/lesson",
+      "date"     : "Oct 27, 2022"
+    } ,
+  
+    {
+      "title"    : "lesson2",
+      "content"  : "div class language python highlighter rouge highlight pre code p lesson",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/lesson2",
+      "date"     : "Nov 12, 2021"
+    } 
+  
+]
